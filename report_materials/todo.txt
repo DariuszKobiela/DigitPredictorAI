@@ -1,0 +1,8 @@
+DONE - trening metod klasycznych można robić u sibie to na Google Colab są słabe CPU
+DONE - zrobić funkcje która testuje accuracy, precision, recal, f1-score, dal validacyjnego i dla treningowego
+DONE - zebrać parametry modelu czas uczenia zapisać, głównie ręczna robota, 
+DONE - zapisywanie i wczytywanie modeli klasycznych
+
+DONE - dla sieci neuronowych dodatkowo oprócz parametrów uczących (learning rate) mozna zapisąć jaki optimizer jakie funkcje aktywacji itp + architektura w formie obrazka.
+DONE - dla sieci neurnowych krzywe uczenia dla funkcji kosztu i zapisać w formie listy z liczbami. 
+- wytrenować sieci na google colab

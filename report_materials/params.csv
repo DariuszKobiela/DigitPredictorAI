@@ -1,0 +1,19 @@
+LogisticRegression {'C': 0.1, 'penalty': 'l2', 'solver': 'lbfgs'}
+param_grid = [
+  {'penalty': ['l1'], 'solver': ['liblinear', 'saga'], 'C':[0.1,0.02]},
+  {'penalty': ['l2'], 'solver': ['sag', 'lbfgs'], 'C':[0.1,0.02]},
+ ]
+
+
+
+DecisionTreeClassifier {'criterion': 'entropy', 'splitter': 'best'}
+param_grid = {
+    'criterion': ['gini', 'entropy'], 
+    'splitter': ['best', 'random'], 
+}
+
+
+SVC {'C': 100}
+param_grid = {
+    'C': [100,10,1],
+}

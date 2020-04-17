@@ -1,0 +1,5 @@
+data/*
+CNN_training/*
+images/*
+classical_models/*.pkl
+static/*.png
